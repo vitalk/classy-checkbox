@@ -1,0 +1,19 @@
+{
+  "name": "classy-checkbox",
+  "version": "0.1.0",
+  "authors": [
+    "Vital Kudzelka <vital.kudzelka@gmail.com>"
+  ],
+  "description": "A classy checkbox",
+  "main": "checkbox.less",
+  "keywords": [
+    "css",
+    "oocss",
+    "checkbox"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "classy-defaults": "~0.2.2"
+  }
+}
+

@@ -1,0 +1,49 @@
+// A simple checkbox theme.
+
+
+.checkbox_theme_simple {
+
+  // Create a new positional context.
+  position: relative;
+
+  // Space reserved for checkbox itself.
+  padding-left: 1em;
+
+  // Ensure the content of `.checkbox__box` is properly aligned vertically.
+  line-height: 1;
+
+
+  .checkbox__box:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    display: block;
+
+    content: ' ';
+    vertical-align: middle;
+    text-align: center;
+
+    background: #ccc;
+  }
+
+
+  .checkbox__input {
+    // Completely hide original control.
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+
+    // Put the input behind the label so it doesn’t overlay text.
+    z-index: -1;
+  }
+
+
+  &.checkbox_checked {
+
+    .checkbox__box:after {
+      content: '\2713';
+    }
+  }
+}
