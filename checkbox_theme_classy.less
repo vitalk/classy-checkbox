@@ -14,10 +14,15 @@
   // Create a new positional context.
   position: relative;
 
-  // Space reserved for checkbox itself.
-  padding-left: 1em;
+  // Apply `inline-block` to ensure the .checkbox__box respects vertical
+  // alignment.
+  display: inline-block;
 
-  // Ensure the content of `.checkbox__box` is properly aligned vertically.
+  // Space reserved for checkbox itself with a little gap between checkbox
+  // description.
+  padding-left: (1em + .5em);
+
+  // Ensure the content of .checkbox__box is properly aligned vertically.
   line-height: 1;
 
 
