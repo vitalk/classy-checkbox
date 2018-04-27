@@ -1,0 +1,24 @@
+{
+  "name": "classy-checkbox",
+  "version": "0.3.0",
+  "description": "A classy checkbox",
+  "main": "checkbox.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalk/classy-checkbox.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "checkbox"
+  ],
+  "author": "Vital Kudzelka <vital.kudzelka@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitalk/classy-checkbox/issues"
+  },
+  "homepage": "https://github.com/vitalk/classy-checkbox#readme"
+}
